@@ -35,6 +35,9 @@
   align-items: center;
 }
 
+.logo {
+  width: 15vw;
+}
 .button-container-1 {
   width: 25vw;
   display: flex;
@@ -60,13 +63,50 @@
   flex-direction: column;
   align-items: center;
   width: 90vw;
-  height: 30vh;
+  height: 40vh;
   padding: 64px 24px;
+}
+
+.highlight-info h2 {
+  color:#6E7A82;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+}
+
+.highlight-info h1 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0px;
+  text-align: center;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+}
+.highlight-info h5 {
+  color:#6E7A82;
+  font-size: 20px;
+  font-weight: 400;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
  .tiles-container {
    width: 90vw;
    height: 50vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .tile-container {
+  height: 49vh;
+  width: 40vw;
+  top: 16px;
+  overflow: hidden;
  }
 
 .copyright {
