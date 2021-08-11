@@ -1,3 +1,74 @@
+@font-face {
+  font-family: "GT America";
+  src: url("./assets/Grilli-Type-Trial-Fonts-2021-05-v2/Web/GT-America-Standard-Regular-Trial.woff2") format('woff')
+
+}
+@font-face {
+  font-family: "GT America";
+  src: url("./assets/GT-America-Standard-Bold-Trial.woff2") format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "GT America";
+  src: url("./assets/Grilli-Type-Trial-Fonts-2021-05-v2/Web/GT-America-Standard-Bold-Italic-Trial.woff2") format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "GT America";
+  src: url("./assets/Grilli-Type-Trial-Fonts-2021-05-v2/Web/GT-America-Standard-Regular-Italic-Trial.woff2") format('woff');
+  font-style: italic;
+}
+
+#app {
+  font-family: "GT America";
+  background-color: #E5E5E5;
+}
+
+.header {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-container-1 {
+  width: 25vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button-container-2 {
+  width: 15vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.body-container {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.highlight-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90vw;
+  height: 30vh;
+  padding: 64px 24px;
+}
+
+ .tiles-container {
+   width: 90vw;
+   height: 50vh;
+ }
+
 .copyright {
   font-size: larger;
 }

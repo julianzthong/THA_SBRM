@@ -4,46 +4,63 @@
   <meta charset="UTF-8">
   <meta name="description" content="Mockup of a company's credit card info page">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/Users/julianzthong/Desktop/Interview Assessments/Aven/take_home_assessment_SBRM/client/styles.css">
+  <!-- type in the directory you have the repo cloned in here -->
+  <base href="/Users/julianzthong/Desktop/Interview Assessments/Aven/take_home_assessment_SBRM/">
+  <link rel="stylesheet" href="./client/styles.css">
 </head>
+
 <body>
 <div id="app">
   <nav class="header">
-    <!-- Homepage, Card, App, Resources, Sign in, Check Offers -->
-    <a href="https://www.aven.com">
-      <img class='company-logo' src="">
-    </a>
+    <a href="https://www.aven.com/" class="header-button" id="logo">Aven</a>
+
+    <div class="button-container-1">
+      <a href="https://www.aven.com/" class="header-button" id="card-redirect">Card</a>
+      <a href="https://www.aven.com/app" class="header-button" id="app-redirect">App</a>
+      <a href="https://www.aven.com/resources" class="header-button" id="resources-redirect">Resources</a>
+    </div>
+
+    <div class="button-container-2">
+      <a href="https://my.aven.com/login" class="header-button" id="sign-up">Sign Up</a>
+      <a href="https://www.aven.com/offers" class="header-button" id="check-offers">Check Offers</a>
+    </div>
   </nav>
+
   <div class="body-container">
     <div class="highlight-info">
       <p1>EDUCATION</p1>
       <h1>Become an Expert</h1>
       <p2>Grow your knowledge with our educational articles written by our team of experts.</p2>
     </div>
-    <div class="tile-container" id="what-is-it">
-      <img class="tile-image" id="what-is-it" src="">
-      <h2>Home Equity Line of Credit (HELOC) Card: What is It?</h2>
-      <p2>Are you looking to free up some cash? If so, you have probably thought about getting a second mortgage in...</p2>
-    </div>
-    <div class="tile-container" id="how-it-works">
-      <img class="tile-image" id="how-it-works" src="">
-      <h2>Home Equity Line of Credit (HELOC) Card: How it Works</h2>
-      <p2>Now that you understand what a HELOC Card is, let’s dive into how it works. This article also explains...</p2>
+    <div class="tiles-container">
+      <div class="tile-container" id="what-is-it">
+        <!-- <img class="tile-image" id="what-is-it" src="https://media.istockphoto.com/photos/happy-young-couple-paying-bills-online-in-computer-app-picture-id1197547531"> -->
+        <h2>Home Equity Line of Credit (HELOC) Card: What is It?</h2>
+        <p2>Are you looking to free up some cash? If so, you have probably thought about getting a second mortgage in...</p2>
+      </div>
+      <div class="tile-container" id="how-it-works">
+        <!-- <img class="tile-image" id="how-it-works" src="https://media.istockphoto.com/photos/beautiful-luxury-home-exterior-with-green-grass-and-landscaped-yard-picture-id856794608"> -->
+        <h2>Home Equity Line of Credit (HELOC) Card: How it Works</h2>
+        <p2>Now that you understand what a HELOC Card is, let’s dive into how it works. This article also explains...</p2>
+      </div>
     </div>
   </div>
 
   <nav class="footer">
-    <!-- Company - About Us, Support, Contact Us -->
     <h6>Company</h6>
-    <li>
+    <ol>
+      <li><a href="https://www.aven.com/about">About Us</a></li>
+      <li><a href="https://www.aven.com/contact">Support</a></li>
+      <li><a href="https://www.aven.com/contact">Contact Us</a></li>
+    </ol>
 
-    </li>
-
-    <!-- Resources - Privacy, Terms of Service, Waitlist Terms, Credit Education -->
     <h6>Resources</h6>
-    <li>
-
-    </li>
+    <ol>
+      <li><a href="https://www.aven.com/privacy">Privacy</a></li>
+      <li><a href="https://www.aven.com/docs/TermsOfUse.pdf">Terms of Service</a></li>
+      <li><a href="https://www.aven.com/docs/WaitlistTerms.pdf">Waitlist Terms</a></li>
+      <li><a href="https://www.aven.com/disclosures">Credit Education</a></li>
+    </ol>
     <footer class="copyright">© 2021 Aven</footer>
   </nav>
 
