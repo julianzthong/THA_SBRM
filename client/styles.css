@@ -1,6 +1,6 @@
 @font-face {
   font-family: "GT America";
-  src: url("./assets/Grilli-Type-Trial-Fonts-2021-05-v2/Web/GT-America-Standard-Regular-Trial.woff2") format('woff')
+  src: url("./assets/GT-America-Standard-Regular-Trial.woff2") format('woff')
 
 }
 @font-face {
@@ -11,20 +11,30 @@
 
 @font-face {
   font-family: "GT America";
-  src: url("./assets/Grilli-Type-Trial-Fonts-2021-05-v2/Web/GT-America-Standard-Bold-Italic-Trial.woff2") format('woff');
+  src: url("./assets/GT-America-Standard-Bold-Italic-Trial.woff2") format('woff');
   font-weight: bold;
   font-style: italic;
 }
 
 @font-face {
   font-family: "GT America";
-  src: url("./assets/Grilli-Type-Trial-Fonts-2021-05-v2/Web/GT-America-Standard-Regular-Italic-Trial.woff2") format('woff');
+  src: url("./assets/client/assets/GT-America-Standard-Regular-Italic-Trial.woff2") format('woff');
   font-style: italic;
 }
 
 #app {
+  width: 100%;
+  height: 100%;
   font-family: "GT America";
-  background-color: #E5E5E5;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  font-family: "GT America" ;
+  text-decoration: none !important;
+  color: black;
 }
 
 .header {
@@ -36,8 +46,11 @@
 }
 
 .logo {
-  width: 15vw;
+  text-align: center;
+  width: 5vw;
+  padding-right: 20vw;
 }
+
 .button-container-1 {
   width: 25vw;
   display: flex;
@@ -45,17 +58,19 @@
 }
 
 .button-container-2 {
-  width: 15vw;
+  width: 25vw;
   display: flex;
   justify-content: space-evenly;
 }
 
 .body-container {
-  width: 100vw;
-  height: 80vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+  width: 100vw;
+  height: 90vh;
+  margin-bottom: 5vh;
 }
 
 .highlight-info {
@@ -63,52 +78,110 @@
   flex-direction: column;
   align-items: center;
   width: 90vw;
-  height: 40vh;
-  padding: 64px 24px;
+  height: 30vh;
 }
 
-.highlight-info h2 {
-  color:#6E7A82;
-  width: 25vw;
+.highlight-info #title {
   display: flex;
   justify-content: center;
+  align-items: center;
+  color:#6E7A82;
+  height: 10vh;
+  width: 25vw;
 }
 
-.highlight-info h1 {
+.highlight-info #slogan {
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
   letter-spacing: 0px;
   text-align: center;
+  height: 10vh;
   width: 25vw;
   display: flex;
   justify-content: center;
 }
-.highlight-info h5 {
+.highlight-info #description {
   color:#6E7A82;
   font-size: 20px;
   font-weight: 400;
+  height: 10vh;
   width: 25vw;
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
- .tiles-container {
-   width: 90vw;
-   height: 50vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
- }
- .tile-container {
-  height: 49vh;
+.tiles-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60vh;
+  width: 90vw;
+}
+
+.tile-container {
+  border-radius: 8px 8px;
+  height: 59vh;
   width: 40vw;
   top: 16px;
   overflow: hidden;
- }
+  display: flex;
+  flex-direction: column;
+}
+
+.tile-image {
+  height: 40vh;
+  width: 40vw;
+  object-fit: cover;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  height: 15vh;
+  padding-left: 5vw;
+  border-top: #D8DCDF solid 1px;
+  border-bottom: #D8DCDF solid 1px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-start;
+}
+.links-container {
+  display: flex;
+  height: 30vh;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-evenly;
+  width: 15vw;
+  padding-left: 5vw
+}
+
+.link-container span {
+  font-family: "GT America";
+}
+
+.links-list {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: space-evenly;
+  height: 20vh;
+}
 
 .copyright {
-  font-size: larger;
+  font-size: smaller;
+  padding-left: 5vw;
 }
