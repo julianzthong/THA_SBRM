@@ -58,9 +58,30 @@ a {
 }
 
 .button-container-2 {
-  width: 25vw;
   display: flex;
   justify-content: space-evenly;
+  width: 20vw;
+  padding-right: 5vw;
+}
+
+#sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 5vh;
+  width: 10vw;
+}
+
+#check-offers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  background-color: #000000;
+  height: 5vh;
+  width: 10vw;
+  border-radius: 40px
 }
 
 .body-container {

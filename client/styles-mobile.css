@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "GT America";
+  src: url("./assets/GT-America-Standard-Regular-Trial.woff2") format('woff')
+
+}
+@font-face {
+  font-family: "GT America";
+  src: url("./assets/GT-America-Standard-Bold-Trial.woff2") format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "GT America";
+  src: url("./assets/GT-America-Standard-Bold-Italic-Trial.woff2") format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "GT America";
+  src: url("./assets/client/assets/GT-America-Standard-Regular-Italic-Trial.woff2") format('woff');
+  font-style: italic;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  font-family: "GT America";
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container-1 {
+  display: none;
+  visibility: hidden;
+}
+
+.button-container-2 {
+  display: none;
+  visibility: hidden;
+}
+
+.footer-logo {
+  display: none;
+  visibility: hidden;
+}
+
+.footer {
+  display: none;
+  visibility: hidden;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.highlight-info {
+
+}
